@@ -1,0 +1,33 @@
+{
+  "name": "indeed-clone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1037.0",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "file-type": "16.5.3",
+    "fs": "0.0.1-security",
+    "kafka-node": "^5.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "multiparty": "^4.2.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "redis": "^3.1.2",
+    "redis-server": "^1.2.2"
+  }
+}
